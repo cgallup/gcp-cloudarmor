@@ -8,7 +8,7 @@ resource "google_compute_security_policy" "ofac" {
 }
 resource "ofac" {
   location = "us-east4"
-  project = "sym-tst-xchg"
+  project = "tst-xchg"
   name = "ofac"
 }
 rule {
