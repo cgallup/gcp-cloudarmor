@@ -1,6 +1,6 @@
 variable "project_id" {
   type        = string
-  default     = "sym-tst-xchg"
+  default     = "tst-xchg"
   description = "Project ID in which to deploy"
 }
 
